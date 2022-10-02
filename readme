@@ -15,15 +15,15 @@ The folder contains:
 
 How to run the program:
 
-    Unzip the folder into your working directory 
+    Clone this repo to your local working directory 
     install g++ compiler 
     set the command line directory to your working directory using (cd workingdirectory)  
     run: make
     you should create the executable "textManipulation"
     run: ./textManipulation sample.txt
 
-output:
+outputs:
 
-    .o files
+    .o files (objects files)
     sample.table.txt contains the word frequency of occurrence 
     sample.reverse.txt contains the revered text
