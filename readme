@@ -1,0 +1,29 @@
+The folder contains:
+
+    results folder contains my results(sample.table.txt and sample.reverse.txt)    
+    input file: sample.txt
+
+    main.cpp file tests two classes 
+    
+    textOccurence.cpp file implements the the class textOccurence
+    textOccurence.h is the  textOccurence class header
+    
+    textReverse.cpp file implements the class textReverse
+    textReverse.h is the  textReverse class header
+        
+    Makefile compile and create an executable of the program
+
+How to run the program:
+
+    Unzip the folder into your working directory 
+    install g++ compiler 
+    set the command line directory to your working directory using (cd workingdirectory)  
+    run: make
+    you should create the executable "textManipulation"
+    run: ./textManipulation sample.txt
+
+output:
+
+    .o files
+    sample.table.txt contains the word frequency of occurrence 
+    sample.reverse.txt contains the revered text
